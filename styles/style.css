@@ -24,6 +24,11 @@ nav {
   display: flex;
   list-style: none;
 }
+.nav-title {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 .nav-list-items a {
   text-decoration: none;
   color: #3a3a3a;
@@ -41,7 +46,7 @@ nav {
 @media screen and (max-width: 576px) {
   /* nav section  */
   header {
-    padding: 2rem 3rem;
+    padding: 2rem 1.5rem;
   }
 
   nav {
@@ -49,14 +54,21 @@ nav {
     gap: 30px;
     margin: auto;
   }
-  .nav-item-containers{
+  nav-title {
+    font-size: 1.rem;
+    font-weight: 600;
+  }
+  .nav-list-items a {
+    font-size: .75rem;
+    font-weight: 500;
+    margin-right: 1rem;
   }
 }
 
 /* tablet  */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-     /* nav section  */
+  /* nav section  */
   header {
     padding: 2rem 3rem;
   }
