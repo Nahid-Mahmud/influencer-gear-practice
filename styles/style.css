@@ -19,6 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 3rem;
 }
 .nav-item-containers {
   display: flex;
@@ -39,48 +40,16 @@ nav {
 
 /* nav section starts  ends */
 
-/* responsive codes  */
+/* banner section  */
 
-/* mobile  phone*/
-
-@media screen and (max-width: 576px) {
-  /* nav section  */
-  header {
-    padding: 2rem 1.5rem;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 30px;
-    margin: auto;
-  }
-  nav-title {
-    font-size: 1.rem;
-    font-weight: 600;
-  }
-  .nav-list-items a {
-    font-size: .75rem;
-    font-weight: 500;
-    margin-right: 1rem;
-  }
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-/* tablet  */
-
-@media screen and (min-width: 576px) and (max-width: 992px) {
-  /* nav section  */
-  header {
-    padding: 2rem 3rem;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 30px;
-    margin: auto;
-  }
+.banner-image-conatiner {
+  background-image: url("/images/Circle\ design.svg");
 }
-
-/* larger than tablet and small screen laptop device  */
-
-@media screen and (min-width: 992px) and (max-width: 1220px) {
+.banenr-image {
+  width: 100%;
 }
