@@ -28,6 +28,13 @@
   .bnner-button {
     margin: 0rem auto 1rem;
   }
+  /* brand  logo  */
+  .logo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem auto;
+    gap: 1rem;
+  }
 }
 
 /* tablet  */
@@ -68,6 +75,13 @@
   }
   .bnner-button {
     margin: 0rem auto 1rem;
+  }
+  /* brand  logo  */
+  .logo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem auto;
+    gap: 1rem;
   }
 }
 
@@ -118,5 +132,13 @@
   }
   .bnner-button {
     margin: 0rem auto 1rem;
+  }
+
+  /* brand  logo  */
+  .logo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem auto;
+    gap: 1rem;
   }
 }
