@@ -3,6 +3,31 @@
 /* larger than tablet and small screen laptop device  */
 
 @media screen and (min-width: 992px) and (max-width: 1220px) {
+  /* banner section  */
+
+  .banner {
+    flex-direction: column;
+  }
+  .banner-image-conatiner {
+    background-size: 25rem;
+  }
+  .banenr-image {
+    max-width: 21.625rem;
+    max-height: 20.875rem;
+  }
+  .banner-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .banner-descripton {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .bnner-button {
+    margin: 0rem auto 1rem;
+  }
 }
 
 /* tablet  */
@@ -17,6 +42,32 @@
     flex-direction: column;
     gap: 30px;
     margin: auto;
+  }
+  /* banner section  */
+
+  .banner {
+    flex-direction: column;
+  }
+  .banner-image-conatiner {
+    background-size: 18rem;
+  }
+  .banenr-image {
+    max-width: 14.625rem;
+    max-height: 14.875rem;
+    flex-shrink: 0;
+  }
+  .banner-heading {
+    text-align: center;
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+  }
+  .banner-descripton {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .bnner-button {
+    margin: 0rem auto 1rem;
   }
 }
 
@@ -41,5 +92,31 @@
     font-size: 0.75rem;
     font-weight: 500;
     margin-right: 1rem;
+  }
+  /* banner section  */
+
+  .banner {
+    flex-direction: column;
+  }
+  .banner-image-conatiner {
+    background-size: 16rem;
+  }
+  .banenr-image {
+    max-width: 12.625rem;
+    max-height: 11.875rem;
+    flex-shrink: 0;
+  }
+  .banner-heading {
+    text-align: center;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+  .banner-descripton {
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .bnner-button {
+    margin: 0rem auto 1rem;
   }
 }
