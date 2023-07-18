@@ -95,7 +95,7 @@ nav {
 /* Popular collectin section  */
 .popular-collection {
   max-width: 90rem;
-  margin:0rem auto 3rem;
+  margin: 0rem auto 3rem;
 }
 .popular-collection-heading {
   text-align: center;
@@ -105,15 +105,24 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin-bottom:4rem ;
+  margin-bottom: 4rem;
 }
-.popular-collection-card-image{
+.popular-collection-card-image {
   width: 100%;
 }
 .popular-collection-card-item {
+  cursor: pointer;
   max-width: 20.6rem;
   padding: 1rem 0.8rem;
   border-radius: 0.3125rem;
   background: #fff;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.see-more {
+  max-width: 82rem;
+  text-align: end;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
 }
