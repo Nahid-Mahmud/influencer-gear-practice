@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -87,4 +88,31 @@ nav {
   margin: 5rem 10rem;
   display: flex;
   justify-content: space-between;
+}
+
+/* main section  */
+
+/* Popular collectin section  */
+.popular-collection {
+  max-width: 90rem;
+  margin:0rem auto 3rem;
+}
+.popular-collection-heading {
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+.popular-collection-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.popular-collection-card-image{
+  width: 100%;
+}
+.popular-collection-card-item {
+  max-width: 20.6rem;
+  padding: 1rem 0.8rem;
+  border-radius: 0.3125rem;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
