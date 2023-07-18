@@ -47,6 +47,13 @@
   .see-more {
     max-width: 80vw;
   }
+  /* features section  */
+  .freatures-container {
+    max-width: 90vw;
+    flex-direction: column-reverse;
+    padding: 1rem;
+    gap: 1rem;
+  }
 }
 
 /* tablet  */
@@ -106,6 +113,13 @@
   /* see more  */
   .see-more {
     max-width: 90vw;
+  }
+  /* features section  */
+  .freatures-container {
+    max-width: 80vw;
+    flex-direction: column-reverse;
+    padding: 1rem;
+    gap: 1rem;
   }
 }
 
@@ -177,6 +191,12 @@
   .see-more {
     max-width: 90vw;
   }
+  /* features section  */
+  .freatures-container {
+    flex-direction: column-reverse;
+    padding: 1rem;
+    gap: 1rem;
+  }
 }
 
 /* extra small  */
@@ -203,5 +223,11 @@
   /* see more  */
   .see-more {
     max-width: 90vw;
+  }
+  /* features section  */
+  .freatures-container {
+    flex-direction: column-reverse;
+    padding: 1rem;
+    gap: 1rem;
   }
 }
