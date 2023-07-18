@@ -88,18 +88,17 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-.logo-1{
+.logo-1 {
   display: flex;
   justify-content: space-around;
   width: 60%;
 }
-.logo-2{
+.logo-2 {
   display: flex;
   width: 40%;
   justify-content: space-around;
 }
 /* main section  */
-
 
 /* Popular collectin section  */
 .popular-collection {
@@ -112,11 +111,10 @@ nav {
   text-align: center;
   margin: 0 auto 2rem;
 }
-.polular-collection-container{
+.polular-collection-container {
   display: flex;
-  margin:1.88rem auto;
+  margin: 1.88rem auto;
   gap: 2.75rem;
-
 }
 .popular-collection-card-image {
   width: 100%;
@@ -189,12 +187,12 @@ footer {
   font-weight: 700;
 }
 .footer-description {
-  color:  #d9dbe1;
+  color: #d9dbe1;
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.5rem;
 }
-.icons i{
+.icons i {
   margin-top: 1rem;
   font-size: 1.5rem;
   width: 2rem;
