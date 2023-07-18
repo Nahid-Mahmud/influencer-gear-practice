@@ -137,8 +137,22 @@
   /* brand  logo  */
   .logo {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr) ;
     margin: 1rem auto;
     gap: 1rem;
+  }
+}
+
+
+
+/* extra small  */
+
+@media screen and (max-width:490px) {
+   /* brand  logo  */
+   .logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    margin: 1rem auto;
+    gap: .5rem;
   }
 }
