@@ -85,11 +85,19 @@ nav {
 }
 /* brand logo  */
 .logo {
-  margin: 5rem 10rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-
+.logo-1{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.logo-2{
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
 /* main section  */
 
 
