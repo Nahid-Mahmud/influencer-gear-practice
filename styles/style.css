@@ -119,10 +119,48 @@ nav {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 .see-more {
-  max-width: 82rem;
+  max-width: 68vw;
   text-align: end;
   color: rgba(224, 44, 109, 0.87);
   font-size: 1rem;
   font-weight: 700;
+  cursor: pointer;
+}
+
+/* features section  */
+
+.freatures-container {
+  max-width: 90rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* .features-text-container {
+  max-width: 38.2rem;
+} */
+.feature-heading {
+  color: #0a0826;
+  font-size: 2.375rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+}
+.features-descripton {
+  max-width: 31.3125rem;
+  color: #6c6c6c;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  margin: 1rem 0rem;
+}
+.features-button {
+  color: white;
+  display: inline-flex;
+  padding: 0.625rem 1.5rem;
+  gap: 0.5rem;
+  background: #e02c6d;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
   cursor: pointer;
 }

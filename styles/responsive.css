@@ -43,6 +43,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  /* see more  */
+  .see-more {
+    max-width: 80vw;
+  }
 }
 
 /* tablet  */
@@ -98,6 +102,10 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* see more  */
+  .see-more {
+    max-width: 90vw;
   }
 }
 
@@ -165,6 +173,10 @@
     justify-content: center;
     align-items: center;
   }
+  /* see more  */
+  .see-more {
+    max-width: 90vw;
+  }
 }
 
 /* extra small  */
@@ -187,5 +199,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  /* see more  */
+  .see-more {
+    max-width: 90vw;
   }
 }
