@@ -105,16 +105,18 @@ nav {
 .popular-collection {
   max-width: 90rem;
   margin: 0rem auto 3rem;
+  display: flex;
+  flex-direction: column;
 }
 .popular-collection-heading {
   text-align: center;
   margin: 0 auto 2rem;
 }
-.popular-collection-card-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-bottom: 4rem;
+.polular-collection-container{
+  display: flex;
+  margin:1.88rem auto;
+  gap: 2.75rem;
+
 }
 .popular-collection-card-image {
   width: 100%;

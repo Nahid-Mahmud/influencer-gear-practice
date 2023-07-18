@@ -121,11 +121,8 @@
   }
   /* Popular collectin section  */
 
-  .popular-collection-card-container {
-    max-width: 60vw;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .polular-collection-container {
+    flex-direction: column;
   }
   /* see more  */
   .see-more {
@@ -206,11 +203,8 @@
   }
   /* Popular collectin section  */
 
-  .popular-collection-card-container {
-    display: flex;
+  .polular-collection-container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   /* see more  */
   .see-more {
@@ -247,12 +241,9 @@
   .brand-logo {
     width: 2.5rem;
   }
-
-  .popular-collection-card-container {
-    display: flex;
+  /* popilar collection */
+  .polular-collection-container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   /* see more  */
   .see-more {
