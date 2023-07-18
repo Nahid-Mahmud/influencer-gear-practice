@@ -105,6 +105,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  margin-bottom:4rem ;
 }
 .popular-collection-card-image{
   width: 100%;
