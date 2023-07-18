@@ -148,6 +148,7 @@
 /* extra small  */
 
 @media screen and (max-width:490px) {
+  
    /* brand  logo  */
    .logo {
     display: grid;

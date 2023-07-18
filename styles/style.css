@@ -80,6 +80,7 @@ nav {
   border-radius: 2.5625rem;
   background: #e02c6d;
   cursor: pointer;
+  border: none;
 }
 /* brand logo  */
 .logo {
